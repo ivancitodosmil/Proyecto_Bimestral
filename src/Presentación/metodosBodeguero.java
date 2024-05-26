@@ -85,7 +85,7 @@ public class metodosBodeguero {
                 em.persist(direccion);
                 em.getTransaction().commit();
 
-                System.out.print("¿Desea agregar otra direccion? (si/no): ");
+                System.out.print("Necesita Ingresar otra Direccion - (Si o No): ");
                 String response = scanner.nextLine();
                 if (!response.equalsIgnoreCase("si")) {
                     agregar = false;
