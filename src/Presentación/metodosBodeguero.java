@@ -89,7 +89,6 @@ public class metodosBodeguero {
                 String response = scanner.nextLine();
                 if (!response.equalsIgnoreCase("si")) {
                     agregar = false;
-                    direccion.setActual(true);
                 }
             }
             System.out.println("Direcciones registradas");
